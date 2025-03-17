@@ -1,6 +1,38 @@
-h5 {
-    background-color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-h5 {
-    color: white;
+
+.logo { 
+color: white;
+font-size: 22px;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navbar {
+  display: flex;              
+  justify-content: space-between;
+  align-items: center;        
+  background-color: rgb(3, 3, 209);        
+  padding: 15px;                  
+}
+
+.menu {
+  display: flex; 
+  gap: 10px; 
+}
+
+#logo { 
+  color: rgb(255, 0, 0);
+  font-size: 22px;
+
+}  
+.menu span {
+  font-size: 20px;
+  color: white;
+  cursor: pointer; 
 }
